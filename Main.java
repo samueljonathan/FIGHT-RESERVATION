@@ -9,20 +9,20 @@ public class Main {
         Flight flight  = new Flight("4561","Jet",120,100);
 
 
-        Passenger p1 = new Passenger("Old Street","Mumbai","Maharashtra","Pushkar","9874563210",
-                "p.rao@gmail.com");
+        Passenger p1 = new Passenger("Camproad","thermal","tamilnadu","jone","93562725987",
+                "donjone@gmail.com");
 
-        Passenger p2 = new Passenger("Malabar Street" , "Kolkata","WB", "Biswa","852431790"
-        ,"biswap7@yahoo.com");
+        Passenger p2 = new Passenger("hyperroad" , "tuty","tamilnadu", "kumar","8645736538"
+        ,"kumar@hotmail.com");
         flight.getCapacity();
 //
 
-        RegularTicket regTicket = new RegularTicket(1,"Delhi","Mumbai","29/11/20,6",
-                "29/11/20,10",flight,"18A",p1,false,"food,water,snacks");
+        RegularTicket regTicket = new RegularTicket(1,"cheenai","trichy","17/04/21,5",
+                "19/04/21,11",flight,"18A",p1,false,"food,water,snacks");
 
         
-        TouristTicket tourTicket = new TouristTicket(2,"Delhi" , "Mumbai","29/11/20,6 ",
-                "29/11/20,10",flight,"18C",p2,false,"Hotel Vue,Beach Ave,Mumbai");
+        TouristTicket tourTicket = new TouristTicket(2,"kashmir" , "ladakh","12/12/21,5 ",
+                "22/12/21,11",flight,"18C",p2,false,"kfc,resort road,trichy");
 
         System.out.println(regTicket.getPnr());
         System.out.println(tourTicket.getPnr());
